@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <tilte>HTML연습</tilte>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+        header{
+            width: 100%;
+            height: 500px;
+            background-color: #005766;
+        }
+
+        header > div {
+            float: left;
+        }
+        header h1, header p {
+            color: white;
+            text-align: center;
+            margin: 50px;
+        }
+        header img {
+            height: 150px;
+            padding: 20px;
+        }
+
+        nav {
+            clear: both;
+            background-color: #3DB7CC;
+            height: 40px;
+        }
+
+        nav a{
+            width: 100px;
+            height: 40px;
+            padding: 5px;
+            display: inline-block;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        nav a:link, nav a:visited {
+            color: white;
+        }
+
+        nav a:hover, nav a:active {
+            background-color: white;
+            color: #3DB7CC;
+        }
+
+        section {
+            margin: 10px;
+            padding: 10px;
+            width: 45%;
+            height: 200px;
+            float: left;
+            border: 1px solid #3DB7CC;
+            box-sizing: border-box;
+        }
+
+        h2 {
+            margin: 5px;
+            padding: 10px;
+            background-color: #005766;
+            color: white;
+        }
+
+        section p, section ul, section ol {
+            padding-left: 50px;
+        }
+
+        section a {
+            width: 80%;
+            height: 15px;
+            padding: 5px;
+            display: inline-block;
+            text-decoration: none;
+        }
+
+        footer {
+            clear: both;
+            height: 50px;
+            background-color: #EAEAEA;
+            color: #5D5D5D;
+            padding: 20px;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="./img/pnu.png", alt="본인사진", style="width: 300px; height: 400px;">
+        </div>
+        <div>
+            <h1> Oh Ji Hyun</h1>
+            <p>오지현</p>
+        </div>
+    </header>
+    <nav>
+        <a href="#s1">[개인정보]</a>&nbsp;&nbsp;
+        <a href="#s2">[학력정보]</a>&nbsp;&nbsp;
+        <a href="#s3">[자격사항]</a>&nbsp;&nbsp;
+        <a href="#s4">[자기소개]</a>&nbsp;&nbsp;
+    </nav>
+    <section class="sc1" id="s1">
+        <h2 class="c1">개인정보</h2>
+        <p>
+        <i class="material-icons">phone</i>&nbsp;&nbsp;01073677306<br>
+        <i class="material-icons">email</i>&nbsp;&nbsp;dhwlgus3031@gmail.com<br>
+        <i class="material-icons">assignment</i>&nbsp;&nbsp;부산광역시 해운대구 청사포로 12<br>
+        </p>
+    </section>
+    <section class="sc1" id="s2">
+        <h2 class="c2">학력사항</h2>
+        <ul>
+        <li><img src="./img/pnuniversity.png" width="20px"><a href="http://www.pusan.ac.kr"> 부산대학교 대학원 재학</a></li>
+        <li><img src="./img/cbnu.png", width="20px"><a href="http://www.chungbuk.ac.kr">충북대학교 졸업</a></li>
+        </ul>
+    </section>
+    <section class="sc2" id="s3">
+        <h2 class="c1">자격사항</h2>
+        <ol>
+        <li>빅데이터분석기사</li>
+        <li>ADsP(빅데이터분석준전문가)</li>
+        <li>SQLD</li>
+        <li>컴퓨터활용능력1급</li>
+        <li>사회조사분석사2급</li>
+        </ol>
+    </section>
+    <section class="sc2" id="s4">
+        <h2 class="c2">자기소개</h2>
+        <p id="p1">
+            <a href="../Users/오 지현/web/01/01_source1_5.html">SWOT분석</a>
+        <br>
+        안녕하세요 데이터 사이언티스트의 꿈을 가진 코린이 오지현입니다. 대학원 입학 전에 이 책을 다 정복하도록 하겠습니다.
+        </p>
+    </section>
+    <footer>
+        &copy;jihyun oh, dhwlgus3031@gmail.com
+    </footer>
+</body>
+</html>
